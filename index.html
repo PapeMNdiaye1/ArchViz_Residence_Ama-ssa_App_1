@@ -87,8 +87,8 @@
             <img id="Scene-1" src="./Style/Images/Scene-1.jpg">
             <img id="Scene-2" src="./Style/Images/Scene-2.jpg">
             <img id="Scene-3" src="./Style/Images/Scene-3.jpg">
-            <!-- <img id="Scene-4" src="./Style/Images/Scene-4.jpg">
-            <img id="Scene-5" src="./Style/Images/Scene-5.jpg">
+            <img id="Scene-4" src="./Style/Images/Scene-4.jpg">
+            <!-- <img id="Scene-5" src="./Style/Images/Scene-5.jpg">
             <img id="Scene-6" src="./Style/Images/Scene-6.jpg">
             <img id="Scene-7" src="./Style/Images/Scene-7.jpg">
             <img id="Scene-8" src="./Style/Images/Scene-8.jpg">
@@ -183,6 +183,10 @@
                 the_dote="Name_of_dote: Dote-2 ; Group_to_activate: Group-2 ; The_rotation:  0">
             </a-plane>
 
+            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
+                position="-1.8602 -0.94886 -3.8235" rotation="-88.07278043632962 -149.2698295764577 -123.74398684558443"
+                the_dote="Name_of_dote: Dote-4 ; Group_to_activate: Group-4 ; The_rotation:  0">
+            </a-plane>
 
 
         </a-entity>
@@ -191,19 +195,8 @@
         <a-entity scale="0 0 0" class="groups" id="Group-4" visible="false">
 
             <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="0.14381 -0.63056 -4.06922"
-                rotation="-84.33365786530587 149.35577324572733 -148.43560302674723"
-                the_dote="Name_of_dote: Dote-1 ; Group_to_activate: Group-1 ; The_rotation: 0">
-            </a-plane>
-
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="3.89084 -0.63056 3.61515" rotation="-88.02407902374351 26.009419109963723 -165.6661627997165"
-                the_dote="Name_of_dote: Dote-5 ; Group_to_activate: Group-5 ; The_rotation: 0">
-            </a-plane>
-
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="8.10338 -0.63056 0.21062" rotation="-86.81456511822235 -130.12902851452233 41.68439846915278"
-                the_dote="Name_of_dote: Dote-9 ; Group_to_activate: Group-9 ; The_rotation: 0">
+                position="1.8721 -1.16021 4.52586" rotation="-84.33365786530587 149.35577324572733 -148.43560302674723"
+                the_dote="Name_of_dote: Dote-3 ; Group_to_activate: Group-3 ; The_rotation: 0">
             </a-plane>
 
         </a-entity>
@@ -603,7 +596,7 @@
                     theBlachHover.style.height = '100vh';
 
                     setTimeout(() => {
-                        theBlachHover.style.transitionDelay = '0s , .5s';
+                        theBlachHover.style.transitionDelay = '0s , .4s';
 
                         switch (Dote_Name) {
                             case 'Dote-0':
@@ -690,7 +683,7 @@
                         theBlachHover.style.opacity = '0';
                         theBlachHover.style.height = '0vh';
 
-                    }, 1000);
+                    }, 800);
 
                 });
             }
