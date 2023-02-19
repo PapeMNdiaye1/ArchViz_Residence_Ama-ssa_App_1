@@ -189,65 +189,65 @@ html {
     transition-duration: .1s;
 }
 
-.the_gallery_container {
-    position: absolute;
-    top: 10vh;
-    left: -50vw;
-    z-index: 10;
-    width: 8em;
-    height: 80vh;
-    background-color: rgba(#f1f1f1, .9);
-    border-radius: .5em;
-    @include cent();
-    flex-wrap: wrap;
-    cursor: pointer;
-    transition-duration: 1s;
-    outline: none;
+// .the_gallery_container {
+//     position: absolute;
+//     top: 10vh;
+//     left: -50vw;
+//     z-index: 10;
+//     width: 8em;
+//     height: 80vh;
+//     background-color: rgba(#f1f1f1, .9);
+//     border-radius: .5em;
+//     @include cent();
+//     flex-wrap: wrap;
+//     cursor: pointer;
+//     transition-duration: 1s;
+//     outline: none;
 
-    .oneImage {
-        width: 6em;
-        height: 4em;
-        background-image: url('./Images/gallery/Image-1.jpg');
-        background-position: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        border-radius: .5em;
-        outline: none;
-        display: none;
+//     .oneImage {
+//         width: 6em;
+//         height: 4em;
+//         background-image: url('./Images/gallery/Image-1.jpg');
+//         background-position: center;
+//         background-size: 100%;
+//         background-repeat: no-repeat;
+//         border-radius: .5em;
+//         outline: none;
+//         display: none;
 
-        &:hover {
-            transform: scale(1.1);
-        }
-    }
+//         &:hover {
+//             transform: scale(1.1);
+//         }
+//     }
 
-    .oneImage:nth-child(2) {
-        background-image: url('./Images/gallery/Image-2.jpg');
-    }
+//     .oneImage:nth-child(2) {
+//         background-image: url('./Images/gallery/Image-2.jpg');
+//     }
 
-    .oneImage:nth-child(3) {
-        background-image: url('./Images/gallery/Image-3.jpg');
-    }
+//     .oneImage:nth-child(3) {
+//         background-image: url('./Images/gallery/Image-3.jpg');
+//     }
 
-    .oneImage:nth-child(4) {
-        background-image: url('./Images/gallery/Image-4.jpg');
-    }
+//     .oneImage:nth-child(4) {
+//         background-image: url('./Images/gallery/Image-4.jpg');
+//     }
 
-    .oneImage:nth-child(5) {
-        background-image: url('./Images/gallery/Image-5.jpg');
-    }
+//     .oneImage:nth-child(5) {
+//         background-image: url('./Images/gallery/Image-5.jpg');
+//     }
 
-    .oneImage:nth-child(6) {
-        background-image: url('./Images/gallery/Image-6.jpg');
-    }
+//     .oneImage:nth-child(6) {
+//         background-image: url('./Images/gallery/Image-6.jpg');
+//     }
 
-    .oneImage:nth-child(7) {
-        background-image: url('./Images/gallery/Image-7.jpg');
-    }
+//     .oneImage:nth-child(7) {
+//         background-image: url('./Images/gallery/Image-7.jpg');
+//     }
 
-    .oneImage:nth-child(8) {
-        background-image: url('./Images/gallery/Image-8.jpg');
-    }
-}
+//     .oneImage:nth-child(8) {
+//         background-image: url('./Images/gallery/Image-8.jpg');
+//     }
+// }
 
 .The_Image {
     position: absolute;

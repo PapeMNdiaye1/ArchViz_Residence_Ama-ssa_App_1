@@ -105,6 +105,7 @@
             <img id="Scene-19" src="./Style/Images/Scene-19.jpg">
             <img id="Scene-20" src="./Style/Images/Scene-20.jpg">
             <img id="Scene-21" src="./Style/Images/Scene-21.jpg">
+            <img id="Scene-22" src="./Style/Images/Scene-22.jpg">
         </a-assets>
 
         <a-entity laser-controls="hand: left"
@@ -123,11 +124,13 @@
         <!-- Group-0. -->
         <a-entity scale="0 0 0" rotation="0 0 0" class="groups" id="Group-0" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="-9.58038 -2.27016 -1.57116"
+            <a-plane data-clickable class="pintings clickable" position="-7.86846 -1.70335 -1.28524"
                 rotation="-87.00134935943498 177.6988494552589 -85.61249966403787"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-1  ; Group_to_activate: Group-1 ; The_rotation: 0">
             </a-plane>
+
+
 
         </a-entity>
 
@@ -508,15 +511,14 @@
                 the_dote="Name_of_dote: Dote-20  ; Group_to_activate: Group-20 ; The_rotation: 0">
             </a-plane>
 
-
         </a-entity>
         <!-- Group-22 -->
         <a-entity scale="0 0 0" class="groups" id="Group-22" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="1.37189 -0.49754 -0.9044"
+            <a-plane data-clickable class="pintings clickable" position="-2.1248 -0.49754 4.22114"
                 rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
                 material="src: #Arrow-1; transparent:true"
-                the_dote="Name_of_dote: Dote-18  ; Group_to_activate: Group-18 ; The_rotation: 0">
+                the_dote="Name_of_dote: Dote-19  ; Group_to_activate: Group-19 ; The_rotation: 0">
             </a-plane>
 
 
@@ -537,8 +539,6 @@
         let TheImageBackCover = document.querySelector('.The_Image_Back_Cover')
         let oneImage = document.querySelectorAll('.oneImage')
         let theBlachHover = document.querySelector('.the_blach_hover')
-
-
 
         theGallery.addEventListener('click', () => {
             if (theGallery.classList.length === 1) {
